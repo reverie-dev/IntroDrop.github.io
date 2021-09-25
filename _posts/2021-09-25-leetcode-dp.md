@@ -30,7 +30,7 @@ tags:
 
 边界条件：当i或者j为0时，dp[i][0] = i dp[0][j] = j
 
-``````java
+```java
 class Solution {
     public int minDistance(String word1, String word2) {
         int n = word1.length(), m = word2.length();
