@@ -1,7 +1,7 @@
 # Site settings
 title: Reverie Blog
 SEOTitle: Reverie的博客 | Reverie Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg-art.jpg
 email: skyhigh0u@gmail.com or drop@stu.pku.edu.cn
 description: "Software Engineer 这里是 @Reverie 的个人博客。"
 keyword: " 个人网站, 互联网, Web, 云原生"
@@ -13,9 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     IntroDrop
-zhihu_username:     Drop-One
-github_username:    IntroDrop
+weibo_username: IntroDrop
+zhihu_username: Drop-One
+github_username: IntroDrop
 
 
 
@@ -25,7 +25,7 @@ github_username:    IntroDrop
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: [ "less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md" ]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN  
@@ -36,7 +36,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins: [ jekyll-paginate ]
 
 
 
@@ -68,7 +68,7 @@ kramdown:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "后端开发工程师"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-reverie.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -91,8 +91,12 @@ page-mathjax: false
 
 # Friends
 friends: [
-   {
-        title: "友链",
-        href: "http://ingf.github.io/"
-    }
+  {
+    title: "github",
+    href: "http://introdrop.github.io/"
+  },
+  {
+    title: "小孙",
+    href: "https://www.itnewbee.org/"
+  }
 ]
