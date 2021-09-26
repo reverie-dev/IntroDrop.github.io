@@ -2,7 +2,7 @@
 layout:     post
 title:      "如何评价Netflix剧集《鱿鱼游戏》?"
 subtitle:   "how to evaluate the netflix series "squid-game"?"
-date:       2021-09-23 12:00:00
+date:       2021-09-25 12:00:00
 author:     "Reverie"
 catalog: false
 header-style: text

@@ -2,7 +2,7 @@
 layout:     post
 title:      "分布式系统基本原理"
 subtitle:   "The distrubited system basic theory"
-date:       2021-09-21 12:00:00
+date:       2021-09-25 12:00:00
 author:     "Reverie"
 catalog: false
 header-style: text
