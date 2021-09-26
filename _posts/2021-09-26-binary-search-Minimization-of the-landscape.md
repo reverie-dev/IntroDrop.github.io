@@ -143,8 +143,8 @@ public class Solution {
 
 **复杂度分析**：
 
-- 时间复杂度：O(Nlog⁡∑nums)O(N \log \sum nums)O(Nlog∑nums)，这里 NNN 表示输入数组的长度，∑nums\sum nums∑nums 表示输入数组的和，代码在 [max⁡(nums),∑nums][\max(nums), \sum nums][max(nums),∑nums] 区间里使用二分查找找到目标元素，而每一次判断分支需要遍历一遍数组，时间复杂度为 O(N)O(N)O(N)；
-- 空间复杂度：O(1)O(1)O(1) ，只使用到常数个临时变量。
+- 时间复杂度：O(Nlog⁡∑nums)，这里 N 表示输入数组的长度，∑nums表示输入数组的和，代码在 \[max⁡(nums),∑nums] 区间里使用二分查找找到目标元素，而每一次判断分支需要遍历一遍数组，时间复杂度为 O(N)；
+- 空间复杂度：O(1) ，只使用到常数个临时变量。
 
 ## 总结
 
@@ -159,7 +159,7 @@ public class Solution {
 这些问题都如出一辙，请大家特别留意题目中出现的关键字「非负整数」、分割「连续」，**思考清楚设计算法的关键步骤和原因**，以后遇到类似的问题就能轻松应对。
 
 - 「力扣」第 875 题：爱吃香蕉的珂珂（中等）
--  LCP 12. 小张刷题计划（中等）
+-  「力扣」LCP 12. 小张刷题计划（中等）
 - 「力扣」第 1482 题：制作 m 束花所需的最少天数（中等）
 - 「力扣」第 1011 题：在 D 天内送达包裹的能力（中等）
 - 「力扣」第 1552 题：两球之间的磁力（中等）
@@ -172,7 +172,7 @@ public class Solution {
 
 再次强调：**写对二分查找不能靠模板，需要理解加练习**。
 
-### 例 1：「力扣」第 875 题：[爱吃香蕉的珂珂](https://link.juejin.cn?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fkoko-eating-bananas%2F)
+### 例 1：「力扣」第 875 题：[爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)
 
 **分析题意**：哪一堆香蕉先吃是无关紧要的，每一堆香蕉的根数是正数，符合「连续」、「正整数」条件。
 
@@ -241,7 +241,7 @@ public class Solution {
 
 - 空间复杂度：O(1)，算法只使用了常数个临时变量。
 
-### 例 2 ：「力扣」第 1011 题：[在 D 天内送达包裹的能力](https://link.juejin.cn?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fcapacity-to-ship-packages-within-d-days%2F)
+### 例 2 ：「力扣」第 1011 题：[在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
 
 **分析题意**：我们装载的重量不会超过船的最大运载重量（找一个有范围的整数），返回能在 D 天内将传送带上的所有包裹送达的船的最低运载能力（最大值最小化）。
 
@@ -309,7 +309,7 @@ public class Solution {
 }
 ```
 
-### 例 3：「力扣」春季团体赛第 3 题：[LCP 12. 小张刷题计划](https://link.juejin.cn/?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fxiao-zhang-shua-ti-ji-hua%2F)
+### 例 3：「力扣」春季团体赛第 3 题：[LCP 12. 小张刷题计划](https://leetcode-cn.com/problems/xiao-zhang-shua-ti-ji-hua/)
 
 **题意分析**：题目中强调了 **必须按照顺序做完题目**（连续），并且做题数量这件事情肯定是正数。
 
@@ -363,7 +363,7 @@ public class Solution {
 }
 ```
 
-### 例 4：「力扣」第 1482 题：[制作 m 束花所需的最少天数](https://link.juejin.cn/?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fminimum-number-of-days-to-make-m-bouquets%2F)
+### 例 4：「力扣」第 1482 题：[制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 
 **题意分析**：依然是题目用着重号强调了「需要使用花园中 **相邻的 `k` 朵花**」（连续），并且花朵数量这件事情肯定是正数。
 
@@ -415,7 +415,7 @@ public class Solution {
 }
 ```
 
-### 例 5：「力扣」第 1552 题：[1552. 两球之间的磁力](https://link.juejin.cn/?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fmagnetic-force-between-two-balls%2F)
+### 例 5：「力扣」第 1552 题：[1552. 两球之间的磁力](https://leetcode-cn.com/problems/magnetic-force-between-two-balls/)
 
 **题意分析**：距离这件事情天然具有连续性，并且距离肯定是正数。并且题目都告诉我们要我们求「最大化的最小磁力」，很显然往「最大值极小化」这一类问题上靠。
 
