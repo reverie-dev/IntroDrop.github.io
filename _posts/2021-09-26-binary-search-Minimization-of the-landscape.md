@@ -1,4 +1,18 @@
-# 二分查找之「最大值极小化」相关问题及解题步骤
+---
+layout:     post
+title:      "二分查找之「最大值极小化」相关问题及解题步骤"
+subtitle:   "Minimization of the landscape problem"
+date:       2021-09-26 11:12:00
+author:     "Reverie"
+catalog: false
+header-style: text
+tags:
+- leetcode
+- 二分查找
+
+---
+
+## 二分查找之「最大值极小化」相关问题及解题步骤
 
 今天为大家总结一下「力扣」第 202 场周赛的第 3 题「两球之间的磁力」（题号：1552）。这道问题在周赛、春季团体赛中都出现过若干次，不过还是有不少朋友们觉得很难理解。我第一次接触到这个问题的时候也觉得很绕，因此今天花一点时间和大家做一个总结。
 
@@ -349,7 +363,7 @@ public class Solution {
 }
 ```
 
-## 例 4：「力扣」第 1482 题：[制作 m 束花所需的最少天数](https://link.juejin.cn/?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fminimum-number-of-days-to-make-m-bouquets%2F)
+### 例 4：「力扣」第 1482 题：[制作 m 束花所需的最少天数](https://link.juejin.cn/?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fminimum-number-of-days-to-make-m-bouquets%2F)
 
 **题意分析**：依然是题目用着重号强调了「需要使用花园中 **相邻的 `k` 朵花**」（连续），并且花朵数量这件事情肯定是正数。
 
@@ -401,7 +415,7 @@ public class Solution {
 }
 ```
 
-## 例 5：「力扣」第 1552 题：[1552. 两球之间的磁力](https://link.juejin.cn/?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fmagnetic-force-between-two-balls%2F)
+### 例 5：「力扣」第 1552 题：[1552. 两球之间的磁力](https://link.juejin.cn/?target=https%3A%2F%2Fleetcode-cn.com%2Fproblems%2Fmagnetic-force-between-two-balls%2F)
 
 **题意分析**：距离这件事情天然具有连续性，并且距离肯定是正数。并且题目都告诉我们要我们求「最大化的最小磁力」，很显然往「最大值极小化」这一类问题上靠。
 
