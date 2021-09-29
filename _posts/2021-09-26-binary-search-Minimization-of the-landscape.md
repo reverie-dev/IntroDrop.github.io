@@ -12,6 +12,9 @@ tags:
 
 ---
 
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=660 height=150 src="//music.163.com/outchain/player?type=2&id=1424659866&auto=1&height=100"></iframe>
+
 ## 二分查找之「最大值极小化」相关问题及解题步骤
 
 今天为大家总结一下「力扣」第 202 场周赛的第 3 题「两球之间的磁力」（题号：1552）。这道问题在周赛、春季团体赛中都出现过若干次，不过还是有不少朋友们觉得很难理解。我第一次接触到这个问题的时候也觉得很绕，因此今天花一点时间和大家做一个总结。
