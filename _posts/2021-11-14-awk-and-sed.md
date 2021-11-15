@@ -2,13 +2,12 @@
 layout:     post
 title:      "Linux的awk和sed简易教程 "
 subtitle:   "awk sed"
-date:       2021-10-13 19:00:00
+date:       2021-11-14 20:00:00
 author:     "Reverie"
 catalog: false
 header-style: text
 tags:
 - tutorial
-
 
 ---
 
