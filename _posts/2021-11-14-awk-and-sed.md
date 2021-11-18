@@ -8,7 +8,7 @@ catalog: false
 header-style: text
 tags:
 - tutorial
-
+- linux
 ---
 
 
