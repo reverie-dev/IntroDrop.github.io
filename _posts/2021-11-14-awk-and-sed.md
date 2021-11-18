@@ -183,3 +183,5 @@ tcp        0      0 :::22                  :::*                        LISTEN
 
 或者 `awk '!/WAIT/' netstat.txt`
 
+#### 拆分文件
+
