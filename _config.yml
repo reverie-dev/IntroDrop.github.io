@@ -5,7 +5,7 @@ header-img: img/home-bg-art.jpg
 email: skyhigh0u@gmail.com or drop@stu.pku.edu.cn
 description: "Software Engineer 这里是 @Reverie 的个人博客。"
 keyword: " 个人网站, 互联网, Web, 云原生"
-url: "https://https://introdrop.site"              # your host, for absolute URL
+url: "https://https://introdrop.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
