@@ -59,7 +59,7 @@ func (t *Trie) StartsWith(prefix string) bool {
 }
 ```
 
-#### 用map存储child版本
+### 用map存储child版本
 
 ```golang
 
@@ -130,3 +130,33 @@ func main() {
 }
 
 ```
+
+### 前缀树相关算法题
+
+#### 702 [词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)
+
+可以直接用hashset来解决，需要注意的是，满足条件的必须是从一个字母的单词开始。
+
+```go
+func longestWord(words []string) string {
+	m := make(map[string]bool)
+	ans := ""
+	sort.Strings(words)
+	for _, word := range words {
+		l := len(word)
+		if len(word) == 1 || m[word[:l-1]] == true {
+			if len(word) > len(ans) {
+				ans = word
+			}
+            m[word] = true
+		}
+	}
+	return ans
+}
+```
+
+使用前缀树的解法:
+
+```go
+```
+
