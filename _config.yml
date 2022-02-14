@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username: IntroDrop
-zhihu_username: Drop-One
+zhihu_username: drop-one
 github_username: IntroDrop
 
 
