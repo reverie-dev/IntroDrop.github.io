@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      "抛弃RESTful，在浏览器端使用gRPC"
+subtitle:   "gRPC in browser"
+date:       2022-03-06 19:00:00
+author:     "Reverie"
+catalog: false
+header-style: text
+tags:
+- backend
+---
+
 > 抛弃RESTful，在浏览器端使用gRPC
 
 ## 1. RESTful API vs gRPC
