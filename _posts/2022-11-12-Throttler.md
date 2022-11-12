@@ -74,7 +74,7 @@ type bucket map[Key]bool
 type buckets map[BucketKey]bucket
 ```
 
-##Init
+## Init
 ```golang
 func (t *throttler) Init(wfs []wfv1.Workflow) error {
     // 获取锁
